@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MY WORLD</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-3 px-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My World</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="./about.html">About us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="./gallery.html">gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="./contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- about us -->
+    <section class="main_heading my-5">
+        <div class="text-center">
+            <h1 class="display-4">About Us</h1>
+            <hr class="w-25 mx-auto">
+        </div>
+
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
+                    <figure>
+                        <img src="./images/a1.jpg" alt="about images" class="img-fluid about_img">
+                    </figure>
+                </div>
+                <div
+                    class="col-lg-6 col-md-6 col-12 col-xxl-6 d-flex justify-content-center align-items-start flex-column">
+                    <h1 class="display-5">My Journey</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolorum ipsam deleniti iste
+                        nihil suscipit incidunt quis debitis tempora eligendi. Excepturi sint quasi repudiandae sapiente
+                        distinctio, cupiditate explicabo velit nemo fugit iusto? Aut libero eligendi nobis amet
+                        temporibus explicabo sint ducimus soluta, tempore quod repudiandae natus rem obcaecati accusamus
+                        eveniet. Rem necessitatibus officia sit.ncidunt quis debitis tempora eligendi. Excepturi sint
+                        quasi repudiandae sapiente
+                        distinctio, cupiditate explicabo velit
+                    </p>
+                    <button type="button" class="btn btn-outline-info" data-toggle="tooltip" data-placement="right"
+                        title="Tooltip on right">Check More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container pb-5">
+        <div class="row">
+            <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading1">First</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading2">Second</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                            <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+                data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0"
+                style="height: 300px; overflow-y: scroll;">
+                <h4 id="scrollspyHeading1">First travel</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, repellat dolores. Nostrum
+                    voluptatem nihil esse accusamus deleniti consequuntur. Aliquid aperiam deserunt aut ipsam dolorum
+                    quidem totam sed quibusdam rerum culpa. Dolore totam rerum expedita consequatur quod tenetur
+                    dolores, aperiam repellendus pariatur? Consectetur perspiciatis illo alias quisquam ipsam odio
+                    ipsum, tempore amet hic. Quos ad cum laborum fugit explicabo commodi similique sint error, numquam
+                    veritatis inventore repudiandae eos sequi labore, architecto voluptatum cumque accusantium nemo,
+                    dignissimos reprehenderit. A ut dignissimos, dolore architecto, veniam, distinctio ad doloribus
+                    voluptatem neque eaque quae voluptatum autem consequatur pariatur qui. Dolorum culpa corporis rerum
+                    ipsam accusantium nulla libero unde corrupti nam enim? Dignissimos similique mollitia libero, modi
+                    dolores doloremque assumenda explicabo alias illum voluptates quae! Eius necessitatibus corrupti
+                    aliquid minima nostrum, fugit, perspiciatis voluptas error ipsam quae cumque nemo ad. Quas incidunt
+                    dolorum sapiente itaque quisquam eveniet accusamus qui laboriosam vel sunt eaque ipsa cum architecto
+                    repellat voluptate, animi nesciunt dicta sed cumque blanditiis aspernatur? Totam libero tempore
+                    quasi nulla consectetur officiis a animi aut, velit inventore doloremque praesentium dolore expedita
+                    nemo quaerat necessitatibus possimus beatae. Quas ad libero debitis, qui atque tenetur et vitae,
+                    facere quaerat, illum sit repellendus voluptatibus eum consequatur rerum animi molestias numquam
+                    nemo necessitatibus unde eligendi enim. Veniam debitis vero voluptatem ad dolores? Ipsam repellat
+                    itaque facere debitis eaque, veritatis illum placeat, quasi nisi ipsa id nesciunt necessitatibus,
+                    tempore laborum iusto. Eaque hic corrupti voluptate pariatur. Obcaecati animi, nemo minima ullam,
+                    quidem aspernatur unde rerum deleniti soluta quos culpa consequatur eius molestiae maiores
+                    voluptates? Non repellendus magni blanditiis officia voluptatibus excepturi totam nisi sint dolores
+                    similique reiciendis quidem autem voluptatem expedita, veritatis ab. Reprehenderit, numquam ipsam?
+                    Sunt, deleniti beatae? Odit, quae? Vel officia inventore asperiores dolor sapiente tenetur
+                    distinctio enim. Nulla, architecto voluptatum necessitatibus quo, magni voluptates voluptas, sequi
+                    consequatur excepturi a ad blanditiis provident omnis possimus minima! Et obcaecati quod maxime
+                    similique illo suscipit molestiae modi, cumque nam dignissimos, cupiditate, veniam voluptas ab
+                    ipsum. Ipsum culpa doloremque officiis ratione hic quaerat debitis eius. Quod saepe dolores delectus
+                    possimus, totam perferendis.</p>
+                <h4 id="scrollspyHeading2">Second travel</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ex dignissimos quibusdam sit eum,
+                    aliquid rem illo similique quae modi at numquam ipsa atque nemo quos ipsam neque minima non,
+                    voluptatibus provident necessitatibus ab, id ratione eos. Dolore enim repellat voluptate asperiores
+                    inventore nostrum consequuntur, id maiores? Vero delectus distinctio ipsam, id eius expedita
+                    nesciunt. Eligendi labore natus ipsam exercitationem repellendus praesentium autem dignissimos quae!
+                    Atque rerum saepe quam eligendi blanditiis doloremque, delectus consequatur nam ad pariatur sint,
+                    dicta porro unde nemo commodi quas maiores nostrum, placeat ex ab quae tempore voluptatum?
+                    Voluptate, esse odio. Nostrum autem quas laudantium rem eligendi dicta quae perspiciatis, ab porro
+                    repellat corrupti maxime. Adipisci neque laboriosam unde necessitatibus! Quae vero aspernatur
+                    laborum inventore quia exercitationem amet ab doloremque id ipsum consequuntur, veritatis
+                    perspiciatis aliquid harum porro, adipisci pariatur saepe. Impedit ex rerum aliquam a accusantium
+                    velit quod. Deleniti doloremque dolor suscipit et ad atque odio veritatis nemo exercitationem
+                    distinctio. Dolorem iste quidem culpa consequuntur. Minus aliquam deleniti iure nam numquam, eius
+                    explicabo quas ab, optio vel tempore amet, enim neque sint rerum perferendis odio hic porro et
+                    ullam? Ratione error amet reprehenderit. Ducimus molestias molestiae a? Libero, pariatur maiores
+                    autem ducimus reprehenderit modi, labore odio corporis eligendi, officiis natus voluptas et
+                    obcaecati nam eum omnis quia enim veniam aperiam at? Corrupti eos incidunt iure nobis! Consequatur
+                    mollitia, eum quasi nulla incidunt libero sit error amet! Voluptate obcaecati consequatur
+                    perferendis necessitatibus unde architecto odio nemo nobis reiciendis nihil temporibus nisi,
+                    reprehenderit eaque laborum vero earum autem. Suscipit sit asperiores similique harum doloremque
+                    veniam dolorem dolores temporibus quaerat eligendi quis reiciendis iure recusandae animi
+                    dignissimos, ab necessitatibus sunt possimus facere. Accusantium optio quo nobis repellat reiciendis
+                    voluptas, magnam voluptates, nemo eveniet illo iste asperiores distinctio, deserunt alias? Illum,
+                    labore officia dolores culpa veniam iusto quod reprehenderit.</p>
+                <h4 id="scrollspyHeading3">Third travel</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, rerum omnis dolor quas similique
+                    voluptatum voluptatem necessitatibus, corrupti, aut exercitationem nam facere dignissimos.
+                    Excepturi, sint. Commodi neque itaque pariatur eos qui sapiente et veritatis maxime quo, assumenda
+                    minus harum sequi voluptates praesentium vel quam error possimus reprehenderit soluta magnam
+                    expedita ut nisi. Aspernatur possimus molestias facere enim deleniti non eius dolores optio, earum
+                    dolorem voluptatum harum pariatur reprehenderit quod voluptate quisquam voluptatibus commodi quasi.
+                    Voluptatum pariatur labore amet mollitia dolor vitae perspiciatis autem commodi debitis
+                    exercitationem earum molestiae dolorem molestias, officia accusamus tempore id voluptates eligendi
+                    atque suscipit nulla facere repellendus! Optio id, quidem consequuntur architecto deserunt sit enim
+                    accusantium. Quos alias quia labore quo aliquid dolorum reprehenderit explicabo placeat tempora
+                    voluptatum, voluptates ad assumenda deserunt. Nam neque perferendis ipsum esse, ab amet magni
+                    molestiae, nulla illum provident tenetur et! Quaerat ullam consectetur in, blanditiis minus fugit
+                    voluptatibus iure ex eius esse qui facilis repellendus, non deserunt pariatur. Repellat molestias
+                    consequuntur consequatur numquam aliquid, suscipit dicta dolorum omnis laboriosam! In incidunt,
+                    eaque libero error fugiat possimus architecto maxime eveniet natus tenetur necessitatibus quos? Et
+                    eum commodi delectus id exercitationem harum temporibus consequatur. Nihil voluptas dignissimos
+                    iusto ab totam illum itaque accusantium, distinctio porro excepturi at nisi, nobis consectetur
+                    optio, possimus temporibus nemo maxime et officia asperiores quasi ex quia culpa? Incidunt error
+                    cupiditate eius officiis sunt iste totam nisi ullam adipisci, dolor alias illum modi dignissimos
+                    consectetur vero facere sint similique laudantium. Explicabo necessitatibus ab eaque, dicta
+                    veritatis neque sequi distinctio quasi ipsum adipisci ducimus atque quisquam quod, deleniti velit
+                    exercitationem, quaerat at omnis nemo ipsam? Libero optio pariatur veniam?</p>
+                <h4 id="scrollspyHeading4">Fourth travel</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugiat commodi incidunt mollitia,
+                    doloribus culpa, debitis enim veniam repellendus, illo voluptate dolor soluta. Autem unde nemo
+                    magnam, commodi id architecto, veritatis sed consectetur excepturi in accusantium, sunt saepe hic
+                    beatae? At, minus autem. Suscipit veritatis eligendi architecto impedit placeat fuga voluptates
+                    voluptas sequi doloremque porro quaerat, expedita magnam, assumenda explicabo amet aperiam fugiat at
+                    tempore temporibus, obcaecati minima voluptatibus! Repudiandae ipsa ducimus, sed excepturi sequi
+                    architecto ullam veniam asperiores placeat incidunt soluta tempore est inventore numquam rerum hic
+                    reprehenderit recusandae eaque blanditiis dolor rem nobis? Accusantium sint assumenda ab voluptas?
+                    Quasi nostrum totam odit debitis mollitia ullam necessitatibus inventore architecto sint perferendis
+                    ad eligendi corporis nihil, modi, exercitationem rem cum quis. Cupiditate dolores doloribus mollitia
+                    nemo magnam quis consequatur neque ad, quaerat excepturi voluptatem, at repellat quo omnis.
+                    Pariatur, voluptatibus! Nobis hic facere, quam placeat blanditiis consectetur mollitia saepe! Unde
+                    impedit in debitis neque dolorem aspernatur consequuntur blanditiis voluptate repellendus eius,
+                    illum doloremque, laborum expedita veniam cupiditate voluptates incidunt, obcaecati nisi rerum
+                    officia! Adipisci architecto quaerat soluta ab odit! Aliquam necessitatibus beatae explicabo,
+                    doloribus, velit numquam consectetur omnis vel consequatur dolorem molestias id ut reprehenderit
+                    repudiandae repellendus distinctio quidem atque.</p>
+                <h4 id="scrollspyHeading5">Fifth heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam inventore quo voluptates aliquam
+                    eveniet, a repellat hic veniam rem praesentium ut modi suscipit reiciendis ratione, dolorum porro
+                    voluptas magnam. Vitae est sed veniam nihil doloremque id? Quasi, dolor. Ea, excepturi. Soluta, id?
+                    Accusantium sint mollitia facere, expedita iure fugit, similique tenetur dolore maiores quos
+                    incidunt molestias id cupiditate eveniet tempora est natus necessitatibus accusamus earum in
+                    laboriosam vel? Magni autem, provident rem placeat esse sint accusantium quaerat at voluptatibus
+                    incidunt maxime modi voluptas aut omnis quia dignissimos quod eos reprehenderit? Mollitia, odit
+                    voluptate assumenda alias omnis quidem dolores nisi saepe?</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- footer -->
+    <footer class="bg-secondary text-center text-white">
+        <p>@copyright Lorem ipsum dolor ilet</p>
+    </footer>
+    <!-- javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
